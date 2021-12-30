@@ -1,0 +1,22 @@
+:root{
+    --primary-color :#EC0928;
+}
+
+
+.btn{
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+
+.btn--circle{
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-color);
+  }
+  
+  .btn--circle:hover{
+    background-color: rgb(153, 153, 153);
+  }

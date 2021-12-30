@@ -1,9 +1,8 @@
 import React from 'react'
 import Logo from '../images/logo.png'
 import {BiSearchAlt} from 'react-icons/bi'
-
 import { Link } from 'react-router-dom'
-
+import { Button } from './Button'
 export const Header = () => {
     return (
         <div className='showcase-header'>
@@ -17,7 +16,7 @@ export const Header = () => {
                    <Link className='link' to ='/'>PRESTATION  </Link>
                    <Link className='link' to ='/'>AVIS ET ANNONCES  </Link>
                    <Link className='link' to ='/'>PRESSE  </Link>
-                   <button type='button' className='searchbtn'><BiSearchAlt color='white' size='24px' className='search'/></button>
+                   <Button buttonStyle='btn--circle'><BiSearchAlt color='white' size='24px' className='search'/></Button>
                 </ul> 
             </header>
            
