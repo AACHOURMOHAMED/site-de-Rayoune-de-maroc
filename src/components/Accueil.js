@@ -72,7 +72,15 @@ export const Accueil = () => {
                            
                         </div>
                         
+                        {/*End card-circle */}
 
+                        <section id='showcase-actualites'>
+                            <div className='container'>
+                                <div className='content'>
+                                    
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
