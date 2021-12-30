@@ -1,6 +1,7 @@
 import React from 'react'
 import back from '../images/back.jpg'
 import logo2 from '../images/logo2.png'
+import { Button } from './Button'
 export const Accueil = () => {
     return (
         <div id='showcase-Accuiel'>
@@ -9,10 +10,11 @@ export const Accueil = () => {
                     <div className='controle-content'>
                         <div className='content'>
                                 <h1 className='nous-text'>Nous vous <br/>accompagnons
-                                <br/>pour la vie</h1> 
+                                <br/>pour la vie</h1>  
+                                <Button buttonStyle={'btn--outline'} buttonSize={'btn--large'}>ESPACE ADHERENT</Button>
                              </div> 
                              <div className='content2'>
-                                 <>
+                           
                                 <img className='logo2' src={logo2} />
                                 <p className='parg'>
                                 Fondation Mohammed VI de promotion<br/>
@@ -20,7 +22,7 @@ export const Accueil = () => {
                                 et agents du Ministère des Affaires <br/>
                                 Étrangères et de la Coopération.<br/>
                                 </p>
-                                 </>
+                           
                             </div> 
                         </div> 
                 </div>

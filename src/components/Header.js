@@ -1,20 +1,24 @@
 import React from 'react'
 import Logo from '../images/logo.png'
 import flagM from '../images/flagM.png'
+import flagF from '../images/flagF.png'
 import {BiSearchAlt} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 import { Button } from './Button'
 export const Header = () => {
     return (
         <div className='showcase-header'>
-            <Link className='flag' to='/' >
-                <img src={flagM} alt="ARABIC"/>
-                <span>FR</span>
-            </Link>
-            <Link className='flag' to='/' >
-                <img src={flagM} alt="ARABIC"/>
-                <span>AR</span>
-            </Link>
+            <div className='topheader'>
+                 <Link className='link-topheader' to='/' >
+                    <img className='flag' src={flagM} alt="ARABIC"/>
+                    <span className='lang'>AR</span>
+                </Link>
+                <Link className='link-topheader' to='/' >
+                    <img className='flag' src={flagF} alt="ARABIC"/>
+                    <span className='lang'>FR</span>
+                </Link>
+            </div>
+           
            <div className='container'>
             <header className='header'>
                 <img className='logo' src={Logo} alt="logo"/>

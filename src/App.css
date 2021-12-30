@@ -12,6 +12,32 @@
   max-width: 1649px;
   margin:0 auto;
 }
+
+
+.topheader{
+  display: flex;
+  justify-content: end;  
+  margin-top: 5px;
+  margin-right: 35px;
+ 
+}
+.flag{
+  width: 31px;
+  margin-left: 15px;
+}
+
+.link-topheader{
+  text-decoration: none;
+  color: #313131;
+  display: flex;
+  align-items: center;
+
+}
+.lang{
+  font-family: 'Museo Sans 700';
+  font-size: 16px;
+  margin-left: 5px;
+}
 /* section header*/
 .showcase-header{
   position: sticky;
