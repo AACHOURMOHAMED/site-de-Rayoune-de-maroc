@@ -5,11 +5,14 @@ import pic1 from '../images/aid.png'
 import pic2 from '../images/elkebir.png'
 import pic3 from '../images/trans.png'
 import pic4 from '../images/Restauration.png'
+import photo1 from '../images/photo-a1.jpg'
+import photo2 from '../images/photo-a2.jpg'
 
 import {FaAngleRight} from 'react-icons/fa'
 import {FaAngleLeft} from 'react-icons/fa'
 import {FaUserAlt} from'react-icons/fa'
 import { Button } from './Button'
+import { Card } from './Card'
 export const Accueil = () => {
     return (
         <div id='showcase-Accuiel'>
@@ -74,16 +77,49 @@ export const Accueil = () => {
                         
                         {/*End card-circle */}
 
-                        <section id='showcase-actualites'>
-                            <div className='container'>
-                                <div className='content'>
-                                    
-                                </div>
-                            </div>
-                        </section>
+                       
                     </div>
                 </div>
             </div>
+
+
+
+
+
+            <div id='showcase-actualites'>
+                <div className='container'>
+                    <div className='content'>
+                        <h1 className='text-a'>
+                        actualites
+                        </h1>
+                        <div className='content-card'>
+                            <Card className='card'>
+                                hljdlsj
+                                <img className='img img1' src={photo1} alt='image'/>
+                            </Card>
+                            <Card className='card'>
+                            <img className='img img2' src={photo2} alt='image'/>    
+                            sdfasddfsf
+                            </Card >  
+                            <div className='width-card'>
+                                <Card  cardStyle={ 'card--secondry'}>hljdlsj
+                                <img src={photo1} alt='image'/>
+                                </Card >
+                                <Card cardStyle={ 'card--secondry'}>
+                                <img src={photo1} alt='image'/>
+                                    sdfasddfsf
+                                </Card>   
+                            </div>
+                        </div>
+                              
+                    </div>
+                </div>            
+            </div>
+
+
+
+
+
         </div>
         
     )

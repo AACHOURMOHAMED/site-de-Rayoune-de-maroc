@@ -168,3 +168,43 @@ margin-bottom: 30px;
   color: #525252;
 }
 /*End  circle card */
+
+/* Section Actulaete */
+#showcase-actualites{
+  background-color: #F5F2FF;
+  margin-top: 90px;
+  z-index: -11;
+  position: relative;
+}
+
+#showcase-actualites .content .text-a{
+text-align: center;
+padding: 50px;
+font-family: var(--primary-font);
+font-size: 26px;
+letter-spacing: 8px;
+font-weight: 700;
+color: #313131;
+text-transform: uppercase;
+}
+.card{
+  position: relative;
+}
+.card .img{
+  width: 100%;
+  
+}
+
+.content-card .img1{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+#showcase-actualites .content-card
+{
+display: flex;
+justify-content: space-around;
+}
+/*End Section Actulaete */

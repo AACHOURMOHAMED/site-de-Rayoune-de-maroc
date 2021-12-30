@@ -1,0 +1,24 @@
+:root{
+    --primary-color :#EC0928;
+    --primary-font : 'Montserrat' , sans-serif
+    
+}
+
+.card--primary{
+    width: 352px;
+    height: 758px;
+    font-family: var(--primary-font);
+    line-height: 10px;
+    background-color: white;
+}
+
+
+
+.card--secondry{
+    width: 729px;
+    height: 354px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
