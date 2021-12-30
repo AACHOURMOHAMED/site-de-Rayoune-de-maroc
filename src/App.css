@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+
+:root{
+  --primary-color :#EC0928;
+}
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  max-width: 1649px;
+  margin:0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.showcase-header{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding-bottom: 15px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 9999;
+}
+.header .nav{
+  display: flex;
+  align-items: center;
+}
+.link{
+  padding: 0 19px;
+  text-decoration: none;
+  color: #313131;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.link:first-child{
+  color: var(--primary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 410px;
+}
+
+
+.searchbtn{
+  width: 37px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary-color);
+}
+
+.searchbtn:hover{
+  background-color: rgb(153, 153, 153);
+}
+.back-image{
+  width: 100%;
+  height: 570px;
+}
+.back{
+  width: 100%;
+  height: 570px;
+  background-color: rgba(0, 0, 0, 0.575);
+  position: absolute;
+  
+}
+.controle-content{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nous-text{
+color: white;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+font-size: 60px;
+margin-top: 150px;
+}
+
+.content2{
+  text-align: center;
+  width: 516px;
+  height: 444px;
+  background-color: rgba(0, 0, 0, 0.657);
+  font-family: 'Montserrat' , sans-serif;
+  font-weight: 500;
+  align-items: center;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.logo2{
+  width: 138px;
+  margin-top: 50px;
+}
+.parg{
+   color: white;
+   line-height: 28px;
+   margin-top: 40px;
+   font-size: 18px;
 }
