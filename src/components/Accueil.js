@@ -1,6 +1,7 @@
 import React from 'react'
 import back from '../images/back.jpg'
 import logo2 from '../images/logo2.png'
+import {FaUserAlt} from'react-icons/fa'
 import { Button } from './Button'
 export const Accueil = () => {
     return (
@@ -11,7 +12,7 @@ export const Accueil = () => {
                         <div className='content'>
                                 <h1 className='nous-text'>Nous vous <br/>accompagnons
                                 <br/>pour la vie</h1>  
-                                <Button buttonStyle={'btn--outline'} buttonSize={'btn--large'}>ESPACE ADHERENT</Button>
+                                <Button buttonStyle={'btn--primary'} buttonSize={'btn--large'}><FaUserAlt className='userbtn'/> ESPACE ADHERENT</Button>
                              </div> 
                              <div className='content2'>
                            
