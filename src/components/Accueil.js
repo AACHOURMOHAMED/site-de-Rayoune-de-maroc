@@ -85,6 +85,7 @@ export const Accueil = () => {
 
 
 
+    {/*Section actualites */}
 
             <div id='showcase-actualites'>
                 <div className='container'>
@@ -202,13 +203,15 @@ export const Accueil = () => {
                                 </Card> 
 
 
-                                <label>VOIR +</label>  
+                                <label className='voir'>VOIR +</label>  
                             </div>
                         </div>
                               
                     </div>
                 </div>            
             </div>
+
+        {/*End Section actualites */}
 
 
 
