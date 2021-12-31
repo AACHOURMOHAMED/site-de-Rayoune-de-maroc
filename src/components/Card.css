@@ -8,12 +8,16 @@
     width: 352px;
     height: 758px;
     font-family: var(--primary-font);
-    line-height: 10px;
+    line-height: 50px;
     background-color: white;
 }
 
 
-
+.card-mobile{
+    text-decoration: none;
+    font-family: var(--primary-font);
+    color: #313131;
+}
 .card--secondry{
     width: 729px;
     height: 354px;

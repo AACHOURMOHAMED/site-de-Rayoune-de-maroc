@@ -207,4 +207,32 @@ text-transform: uppercase;
 display: flex;
 justify-content: space-around;
 }
+.content-card .content{
+  margin-left:20px ;
+  padding-top: 40px;
+}
+
+.content-card .content h1{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.content-card .content p
+{
+  line-height: 28px;
+  width: 308px;
+  margin-top: 15px;
+  text-align: justify;
+  color: #313131;
+}
+
+.date-card{
+color: rgb(102, 102, 102);
+background-color: #3f3f3f28;
+padding: 5px;
+}
+.btn--primary
+{
+  float: right;
+  margin: 30px;
+}
 /*End Section Actulaete */
