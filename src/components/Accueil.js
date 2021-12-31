@@ -203,10 +203,10 @@ export const Accueil = () => {
                                 </Card> 
 
 
-                                <label className='voir'>VOIR +</label>  
+                                
                             </div>
-                        </div>
-                              
+                         </div>
+                          <h1 className='voir'>VOIR +</h1>      
                     </div>
                 </div>            
             </div>
