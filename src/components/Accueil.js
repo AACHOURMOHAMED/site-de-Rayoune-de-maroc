@@ -214,10 +214,144 @@ export const Accueil = () => {
         {/*End Section actualites */}
 
 
+        {/* section event */}
+        <did id='showcase-event'>
+            <div className='container'>
+                <div  className='content'>
+                    
+
+
+ <h1 className='text-a'>
+                        actualites
+                        </h1>  
+          
+           
+                <div className='content-card'>
+                 <Card className='card'>
+                            <img className='img img2' src={photo2} alt='image'/>    
+                            
+                            <div className='content'>
+                                    <h1>
+                                        LISTE DES BOURSIERS 2021
+                                    </h1>
+
+                                    <label className='date-card'>
+                                        Publiée le 20 Dec 2021
+                                    </label>
+                                    <p className='parg-card'>
+                                        Le lundi 20 décembre 2021 à
+                                        Rabat, la Fondation a conclu 
+                                        des conventions de partenariat
+                                        avec huit organismes bancaires
+                                        pour la mise en place de sa
+                                        nouvelle prestation «Yassir». Ce ...
+                                    </p>
+
+                                    <Button buttonStyle={'btn--primary'} buttonSize={'btn--small'}>PLUS DE DETAILS</Button>
+                                </div>
+                </Card>
 
 
 
-        </div>
+                <Card className='card'>
+                            <img className='img img2' src={photo2} alt='image'/>    
+                            
+                            <div className='content'>
+                                    <h1>
+                                        LISTE DES BOURSIERS 2021
+                                    </h1>
+
+                                    <label className='date-card'>
+                                        Publiée le 20 Dec 2021
+                                    </label>
+                                    <p className='parg-card'>
+                                        Le lundi 20 décembre 2021 à
+                                        Rabat, la Fondation a conclu 
+                                        des conventions de partenariat
+                                        avec huit organismes bancaires
+                                        pour la mise en place de sa
+                                        nouvelle prestation «Yassir». Ce ...
+                                    </p>
+
+                                    <Button buttonStyle={'btn--primary'} buttonSize={'btn--small'}>PLUS DE DETAILS</Button>
+                                </div>
+                </Card>
+
+
+
+
+
+                <Card className='card'>
+                            <img className='img img2' src={photo2} alt='image'/>    
+                            
+                            <div className='content'>
+                                    <h1>
+                                        LISTE DES BOURSIERS 2021
+                                    </h1>
+
+                                    <label className='date-card'>
+                                        Publiée le 20 Dec 2021
+                                    </label>
+                                    <p className='parg-card'>
+                                        Le lundi 20 décembre 2021 à
+                                        Rabat, la Fondation a conclu 
+                                        des conventions de partenariat
+                                        avec huit organismes bancaires
+                                        pour la mise en place de sa
+                                        nouvelle prestation «Yassir». Ce ...
+                                    </p>
+
+                                    <Button buttonStyle={'btn--primary'} buttonSize={'btn--small'}>PLUS DE DETAILS</Button>
+                                </div>
+                </Card>
+
+
+                <Card className='card'>
+                            <img className='img img2' src={photo2} alt='image'/>    
+                            
+                            <div className='content'>
+                                    <h1>
+                                        LISTE DES BOURSIERS 2021
+                                    </h1>
+
+                                    <label className='date-card'>
+                                        Publiée le 20 Dec 2021
+                                    </label>
+                                    <p className='parg-card'>
+                                        Le lundi 20 décembre 2021 à
+                                        Rabat, la Fondation a conclu 
+                                        des conventions de partenariat
+                                        avec huit organismes bancaires
+                                        pour la mise en place de sa
+                                        nouvelle prestation «Yassir». Ce ...
+                                    </p>
+
+                                    <Button buttonStyle={'btn--primary'} buttonSize={'btn--small'}>PLUS DE DETAILS</Button>
+                                </div>
+                </Card>
+
+                </div> 
+
+
+
+
+
+                   
+
+
+
+
+                </div>
+              <h1 className='voir'>VOIR +</h1>   
+            </div>
+              
+
+        </did>
+
+        {/*End section event */}
+
+
+     </div>
         
     )
 }

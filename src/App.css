@@ -251,7 +251,7 @@ margin-top: -10px;
 
 
 
-#showcase-actualites .content  .voir{
+  .voir{
   font-size: 18px;
   font-family: var(--primary-font);
   color: var(--primary-color);
@@ -262,3 +262,31 @@ margin-top: -10px;
 }
 
 /*End Section Actulaete */
+
+#showcase-event{
+  margin-top: 90px;
+  z-index: -11;
+  position: relative;
+}
+
+#showcase-event .content-card{
+display: flex;
+justify-content: space-around;
+}
+
+#showcase-event .content-card .card .content{
+  margin-top: -20px;
+}
+
+.text-a{
+  text-align: center;
+  padding: 50px;
+  font-family: var(--primary-font);
+  font-size: 26px;
+  letter-spacing: 8px;
+  font-weight: 700;
+  color: #313131;
+  text-transform: uppercase;
+  }
+/* 
+End section event */
