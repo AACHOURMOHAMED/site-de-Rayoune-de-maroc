@@ -342,10 +342,10 @@ export const Accueil = () => {
 
 
                 </div>
-              <h1 className='voir'>VOIR +</h1>   
+              
             </div>
               
-
+            <h1 className='voir'>VOIR +</h1>   
         </did>
 
         {/*End section event */}
