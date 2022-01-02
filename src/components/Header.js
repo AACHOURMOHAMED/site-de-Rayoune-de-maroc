@@ -25,10 +25,10 @@ export const Header = () => {
                 <ul className='nav'>
                     <Link className='link' to='/Accueil'>ACCUEIL</Link>
                     <Link className='link' to ='/Fondation'>LA FONDATION</Link>
-                    <Link className='link' to ='/'>LES ADHERENTS  </Link>
-                    <Link className='link' to ='/'>PRESTATION  </Link>
-                    <Link className='link' to ='/'>AVIS ET ANNONCES  </Link>
-                    <Link className='link' to ='/'>PRESSE  </Link>
+                    <Link className='link' to ='/Accueil'>LES ADHERENTS  </Link>
+                    <Link className='link' to ='/Accueil'>PRESTATION  </Link>
+                    <Link className='link' to ='/Accueil'>AVIS ET ANNONCES  </Link>
+                    <Link className='link' to ='/Accueil'>PRESSE  </Link>
                     <Button buttonStyle='btn--circle'><BiSearchAlt color='white' size='24px' className='search'/></Button>
                 </ul> 
             </header>
