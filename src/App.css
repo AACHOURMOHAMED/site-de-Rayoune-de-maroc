@@ -292,5 +292,22 @@ margin-bottom: 50px;
   color: #313131;
   text-transform: uppercase;
   }
+
+
+  .date-event{
+    width: 224px;
+    height: 30px;
+    background-color: #313131;
+    color: white;
+    position: absolute;
+    margin-top: -38px;
+    display: flex;
+    align-items: center;
+    margin-left: 62px;
+  }
+.date-event p{
+  margin-left: 50px;
+}
+  
 /* 
 End section event */

@@ -227,15 +227,17 @@ export const Accueil = () => {
           
            
                 <div className='content-card'>
+
+                   {/************************ ************************************************/}
                  <Card className='card'>
                             <img className='img img2' src={photo2} alt='image'/>    
-                            
+                            <div className='date-event'><p>Du 17 Dec Au</p></div>
                             <div className='content'>
                                     <h1>
                                         LISTE DES BOURSIERS 2021
                                     </h1>
 
-                                    <label className='date-card'>
+                                    <label className='localisaion-card'>
                                         Publiée le 20 Dec 2021
                                     </label>
                                     <p className='parg-card'>
@@ -251,17 +253,18 @@ export const Accueil = () => {
                                 </div>
                 </Card>
 
+ {/************************ ************************************************/}
 
-
-                <Card className='card'>
+                        {/************************ ************************************************/}
+                 <Card className='card'>
                             <img className='img img2' src={photo2} alt='image'/>    
-                            
+                            <div className='date-event'><p>Du 17 Dec Au</p></div>
                             <div className='content'>
                                     <h1>
                                         LISTE DES BOURSIERS 2021
                                     </h1>
 
-                                    <label className='date-card'>
+                                    <label className='localisaion-card'>
                                         Publiée le 20 Dec 2021
                                     </label>
                                     <p className='parg-card'>
@@ -277,19 +280,21 @@ export const Accueil = () => {
                                 </div>
                 </Card>
 
+ {/************************ ************************************************/}
 
 
 
 
-                <Card className='card'>
+                        {/************************ ************************************************/}
+                 <Card className='card'>
                             <img className='img img2' src={photo2} alt='image'/>    
-                            
+                            <div className='date-event'><p>Du 17 Dec Au</p></div>
                             <div className='content'>
                                     <h1>
                                         LISTE DES BOURSIERS 2021
                                     </h1>
 
-                                    <label className='date-card'>
+                                    <label className='localisaion-card'>
                                         Publiée le 20 Dec 2021
                                     </label>
                                     <p className='parg-card'>
@@ -305,16 +310,21 @@ export const Accueil = () => {
                                 </div>
                 </Card>
 
+ {/************************ ************************************************/}
 
-                <Card className='card'>
+
+
+
+                            {/************************ ************************************************/}
+                 <Card className='card'>
                             <img className='img img2' src={photo2} alt='image'/>    
-                            
+                            <div className='date-event'><p>Du 17 Dec Au</p></div>
                             <div className='content'>
                                     <h1>
                                         LISTE DES BOURSIERS 2021
                                     </h1>
 
-                                    <label className='date-card'>
+                                    <label className='localisaion-card'>
                                         Publiée le 20 Dec 2021
                                     </label>
                                     <p className='parg-card'>
@@ -329,6 +339,9 @@ export const Accueil = () => {
                                     <Button buttonStyle={'btn--primary'} buttonSize={'btn--small'}>PLUS DE DETAILS</Button>
                                 </div>
                 </Card>
+
+ {/************************ ************************************************/}
+
 
                 </div> 
 
