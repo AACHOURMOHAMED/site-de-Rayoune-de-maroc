@@ -12,6 +12,8 @@
     line-height: 50px;
     background-color: white;
     box-shadow: var(--primary-shadow);
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
 }
 
 
