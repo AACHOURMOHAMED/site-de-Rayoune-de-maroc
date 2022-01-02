@@ -317,3 +317,28 @@ padding: 5px;
 }
 /* 
 End section event */
+
+/* section footer*/
+#footer{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 150px;
+}
+
+.back-F{
+position: absolute;
+}
+
+#footer .back-I{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 75%;
+  
+}
+
+
+/*End section footer*/
