@@ -309,5 +309,11 @@ margin-bottom: 50px;
   margin-left: 50px;
 }
   
+
+.localisaion-card{
+  color: rgb(102, 102, 102);
+background-color: #3f3f3f28;
+padding: 5px;
+}
 /* 
 End section event */

@@ -228,7 +228,7 @@ export const Accueil = () => {
            
                 <div className='content-card'>
 
-                   {/************************ ************************************************/}
+{/************************ ************************************************/}
                  <Card className='card'>
                             <img className='img img2' src={photo2} alt='image'/>    
                             <div className='date-event'><p>Du 17 Dec Au</p></div>
@@ -255,37 +255,7 @@ export const Accueil = () => {
 
  {/************************ ************************************************/}
 
-                        {/************************ ************************************************/}
-                 <Card className='card'>
-                            <img className='img img2' src={photo2} alt='image'/>    
-                            <div className='date-event'><p>Du 17 Dec Au</p></div>
-                            <div className='content'>
-                                    <h1>
-                                        LISTE DES BOURSIERS 2021
-                                    </h1>
-
-                                    <label className='localisaion-card'>
-                                        Publiée le 20 Dec 2021
-                                    </label>
-                                    <p className='parg-card'>
-                                        Le lundi 20 décembre 2021 à
-                                        Rabat, la Fondation a conclu 
-                                        des conventions de partenariat
-                                        avec huit organismes bancaires
-                                        pour la mise en place de sa
-                                        nouvelle prestation «Yassir». Ce ...
-                                    </p>
-
-                                    <Button buttonStyle={'btn--primary'} buttonSize={'btn--small'}>PLUS DE DETAILS</Button>
-                                </div>
-                </Card>
-
- {/************************ ************************************************/}
-
-
-
-
-                        {/************************ ************************************************/}
+{/************************ ************************************************/}
                  <Card className='card'>
                             <img className='img img2' src={photo2} alt='image'/>    
                             <div className='date-event'><p>Du 17 Dec Au</p></div>
@@ -315,7 +285,37 @@ export const Accueil = () => {
 
 
 
-                            {/************************ ************************************************/}
+{/************************ ************************************************/}
+                 <Card className='card'>
+                            <img className='img img2' src={photo2} alt='image'/>    
+                            <div className='date-event'><p>Du 17 Dec Au</p></div>
+                            <div className='content'>
+                                    <h1>
+                                        LISTE DES BOURSIERS 2021
+                                    </h1>
+
+                                    <label className='localisaion-card'>
+                                        Publiée le 20 Dec 2021
+                                    </label>
+                                    <p className='parg-card'>
+                                        Le lundi 20 décembre 2021 à
+                                        Rabat, la Fondation a conclu 
+                                        des conventions de partenariat
+                                        avec huit organismes bancaires
+                                        pour la mise en place de sa
+                                        nouvelle prestation «Yassir». Ce ...
+                                    </p>
+
+                                    <Button buttonStyle={'btn--primary'} buttonSize={'btn--small'}>PLUS DE DETAILS</Button>
+                                </div>
+                </Card>
+
+ {/************************ ************************************************/}
+
+
+
+
+{/************************ ************************************************/}
                  <Card className='card'>
                             <img className='img img2' src={photo2} alt='image'/>    
                             <div className='date-event'><p>Du 17 Dec Au</p></div>
